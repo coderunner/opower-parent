@@ -1,3 +1,6 @@
+What's new in 4.0.1
+    Update surefire/failsafe plugin version to get the fix for https://issues.apache.org/jira/browse/SUREFIRE-1208
+
 What's new in 3.99.0
     Add maven enforcer checks for legacy (cdh4) artifacts
 
