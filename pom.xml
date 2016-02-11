@@ -51,7 +51,7 @@
         <project.reporting.outputEncoding>${default.encoding}</project.reporting.outputEncoding>
         <maven.failsafe.argLine>-XX:+HeapDumpOnOutOfMemoryError -Xmx1024M -XX:MaxPermSize=256M -Djava.awt.headless=true</maven.failsafe.argLine>
         <maven.surefire.argLine>-XX:+HeapDumpOnOutOfMemoryError -Xmx1024M -XX:MaxPermSize=256M -Djava.awt.headless=true</maven.surefire.argLine>
-        <maven.surefire.fork.count>1C</maven.surefire.fork.count>
+        <maven.surefire.fork.count>0.5C</maven.surefire.fork.count>
         <maven.test.runOrder>hourly</maven.test.runOrder>
         <version.buildnumber.plugin>1.3</version.buildnumber.plugin>
         <version.maven.assembly.plugin>2.4.1</version.maven.assembly.plugin>
